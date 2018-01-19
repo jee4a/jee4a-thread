@@ -1,4 +1,4 @@
-package com.jee4a.thread.order.manger;
+package com.jee4a.thread.manager;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Component;
 
+import com.jee4a.common.mapper.TOrderMapper;
 import com.jee4a.common.model.TOrder;
-import com.jee4a.common.order.mapper.TOrderMapper;
 
 @Component
 public class TOrderManager {

@@ -266,13 +266,6 @@
 			<properties>
 				<active.profilename>dev</active.profilename>
 				<active.driverClass>com.mysql.jdbc.Driver</active.driverClass>
-				<active.read.name>test</active.read.name>
-				<active.read.pwd>1123456</active.read.pwd>
-				<active.read.url>jdbc:mysql://172.20.8.215:3306/product?characterEncoding=utf8</active.read.url>
-				<active.write.name>test</active.write.name>
-				<active.write.pwd>1123456</active.write.pwd>
-				<active.write.url>jdbc:mysql://172.20.10.200:3306/product?characterEncoding=utf8</active.write.url>
-				
 				<active.order.name>test</active.order.name>
 				<active.order.pwd>1123456</active.order.pwd>
 				<active.order.url>jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8</active.order.url>
@@ -315,13 +308,6 @@
 			<properties>
 				<active.profilename>test</active.profilename>
 				<active.driverClass>com.mysql.jdbc.Driver</active.driverClass>
-				<active.read.name>test</active.read.name>
-				<active.read.pwd>1123456</active.read.pwd>
-				<active.read.url>jdbc:mysql://172.20.8.215:3306/product?characterEncoding=utf8</active.read.url>
-				<active.write.name>test</active.write.name>
-				<active.write.pwd>1123456</active.write.pwd>
-				<active.write.url>jdbc:mysql://172.20.10.200:3306/product?characterEncoding=utf8</active.write.url>
-				
 				<active.order.name>test</active.order.name>
 				<active.order.pwd>1123456</active.order.pwd>
 				<active.order.url>jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8</active.order.url>
@@ -347,13 +333,6 @@
 			<properties>
 				<active.profilename>production</active.profilename>
 				<active.driverClass>com.mysql.jdbc.Driver</active.driverClass>
-				<active.read.name>test</active.read.name>
-				<active.read.pwd>1123456</active.read.pwd>
-				<active.read.url>jdbc:mysql://172.20.8.215:3306/product?characterEncoding=utf8</active.read.url>
-				<active.write.name>test</active.write.name>
-				<active.write.pwd>1123456</active.write.pwd>
-				<active.write.url>jdbc:mysql://172.20.10.200:3306/product?characterEncoding=utf8</active.write.url>
-				
 				<active.order.name>test</active.order.name>
 				<active.order.pwd>1123456</active.order.pwd>
 				<active.order.url>jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8</active.order.url>

@@ -1,4 +1,4 @@
-package com.jee4a.common.order.mapper;
+package com.jee4a.common.mapper;
 
 import java.util.List;
 

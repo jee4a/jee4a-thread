@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 
 import com.jee4a.common.model.TOrder;
 import com.jee4a.common.utils.SnowflakeIdWorker;
-import com.jee4a.thread.order.manger.TOrderManager;
+import com.jee4a.thread.manager.TOrderManager;
 
  
 /**
@@ -72,10 +72,11 @@ public class OrderService   {
 			record.setProductId(0);
 			list.add(record) ;
 			
-			if(list.size()%5000 ==0) {
+			if(list.size()%100 ==0) {
+				//System.out.println("list.size():"+list.size());
 				tOrderManager.insertBatch(list) ;
 				list.clear();
-			}
+			} 
 		}
 	}
 	
@@ -84,7 +85,7 @@ public class OrderService   {
 		ApplicationContext context = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
 		OrderService orderService = context.getBean(OrderService.class) ;
 		//调整线程数测试 插入数据
-		orderService.multiThreadImport(20,1000000);
+		orderService.multiThreadImport(20,10000);
 		System.out.println("CPU 数:"+Runtime.getRuntime().availableProcessors());
 	}		 
 }
